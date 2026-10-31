@@ -229,3 +229,10 @@ nav {
         scroll-behavior: auto !important;
     }
 }
+
+
+/* Restore readable contrast over the dark CRT background. */
+.content { color: #e5caca; }
+.terminal-text,
+.bento-item p { color: #d9bcbc; }
+.bento-item h3 { color: var(--yellow); text-shadow: 1px 1px var(--blood); }
